@@ -68,7 +68,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Code.html" />
+    <Content Include="css\custom.css" />
     <Content Include="css\prism.css" />
+    <Content Include="css\style.sea.css" />
+    <Content Include="css\style.sea.min.css" />
+    <Content Include="img\1200px-Unofficial_JavaScript_logo_2.svg.png" />
+    <Content Include="img\20924906054_198dacf060_w.jpg" />
+    <Content Include="img\28015241317_c9574eefb4_k.jpg" />
+    <Content Include="img\68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png" />
+    <Content Include="img\android-chrome-192x192.png" />
+    <Content Include="img\android-chrome-512x512.png" />
+    <Content Include="img\apple-touch-icon.png" />
+    <Content Include="img\azuresqlsquaretransparent1.png" />
+    <Content Include="img\CSS3_logo_and_wordmark.svg.png" />
+    <Content Include="img\favicon-16x16.png" />
+    <Content Include="img\favicon-32x32.png" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\HTML5_Logo_512.png" />
+    <Content Include="img\macbook-juice.jpg" />
+    <Content Include="img\portfolio-1.jpg" />
+    <Content Include="img\portfolio-2.jpg" />
+    <Content Include="img\portfolio-3.jpg" />
+    <Content Include="img\portfolio-4.jpg" />
+    <Content Include="img\portfolio-5.jpg" />
+    <Content Include="img\portfolio-6.jpg" />
+    <Content Include="img\Shot.jpg" />
     <Content Include="Index.html" />
     <Content Include="Scripts\prism.js" />
     <Content Include="Solve.html" />
@@ -78,6 +102,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\site.webmanifest" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
