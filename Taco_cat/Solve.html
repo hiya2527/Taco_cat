@@ -69,33 +69,36 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Taco Cat</h1>
-                <p class="lead">Please enter a Word, Phrase or Number</p>
+        <div class="col">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="mt-5">Taco Cat</h1>
+                    <p class="lead">Please enter a Word, Phrase or Number</p>
+                </div>
             </div>
-        </div>
-        <hr />
-        <div class="row">
-            <div class="col-4">
-                <input id="InputT" class="fWide" placeholder="Enter word or phrase" />
+            <hr />
+            <div class="row">
+                <div class="col-4">
+                    <input id="InputT" class="fWide" placeholder="Enter word or phrase" />
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <button onclick="TacoCat()" class="btn fWide btn-light btn-outline-dark">Submit</button>
+                </div>
 
             </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <button onclick="TacoCat()" class="btn fWide btn-primary">Submit</button>
+            <div class="row">
+                <p class="text-center" id="OutputT"></p>
             </div>
 
-        </div>
-        <div class="row">
-            <p class="text-center" id="OutputT"></p>
-        </div>
+            <hr />
 
-        <hr />
+            <div class="row">
 
-        <div class="row">
-            <button class="btn btn-danger" onclick="clearTC()">Clear</button>
+                <button class="btn btn-danger" onclick="clearTC()">Clear</button>
+            </div>
         </div>
 
     </div>
