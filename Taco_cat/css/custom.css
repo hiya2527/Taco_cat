@@ -179,7 +179,9 @@ div {
         background-color: #28a745;
         border-color: #28a745;
     }
-
+.color1 {
+    background-color: #E8e8d9
+}
     .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
     .show > .btn-success.dropdown-toggle {
         color: #fff;
