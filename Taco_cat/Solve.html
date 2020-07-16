@@ -14,7 +14,8 @@
             width: 100%;
         }
     </style>
-
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Custom stylesheet - for your changes-->
+
     <link rel="stylesheet" href="css/custom.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -85,7 +87,7 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <button onclick="TacoCat()" class="btn fWide btn-dark">Submit</button>
+                    <button id="tcBtn" onclick="TacoCat()" class="btn fWide btn-dark">Submit</button>
                 </div>
 
             </div>
@@ -118,7 +120,7 @@
             RevWord = Word.split("").reverse().join("");
             //Palindrome Check
             if (RevWord == Word) {
-                document.getElementById("OutputT").innerText = `${TcWord} becomes ${Word}. The reverse of ${Word} is ${RevWord}, therefore ${TcWord} is a palindrome`;
+                document.getElementById("OutputT").innerHTML = `${TcWord} becomes ${Word}. The reverse of ${Word} is ${RevWord}, therefore ${TcWord} is a palindrome `;
             }
             else {
                 document.getElementById("OutputT").innerText = `${TcWord} becomes ${Word}. The reverse of ${Word} is ${RevWord}, therefore ${TcWord} is not a palindrome`;
